@@ -1,0 +1,2 @@
+add_executable(lexgen main.cpp BuildTables.cpp Input.hpp LexerBuilder.hpp Definitions.hpp InputLexer.hpp Input.cpp LexerBuilder.cpp InputLexer.cpp)
+target_link_libraries(lexgen LINK_PUBLIC Std++ Std++Static)

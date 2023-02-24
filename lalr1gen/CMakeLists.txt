@@ -1,0 +1,2 @@
+add_executable(lalr1gen main.cpp BuildTables.cpp CBuilder.cpp CBuilder.hpp CGrammar.hpp CRule.cpp CRule.hpp ExtendedGrammar.hpp ExtendedGrammar.cpp General.hpp CInput.cpp CInput.hpp CInputLexer.hpp CInputLexer.cpp CItemSet.hpp CItemSet.cpp RunSimulation.cpp CLexerBuilder.cpp CLexerBuilder.hpp)
+target_link_libraries(lalr1gen LINK_PUBLIC Std++ Std++Static)
